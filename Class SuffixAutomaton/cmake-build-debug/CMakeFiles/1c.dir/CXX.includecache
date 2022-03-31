@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aleksandragafonov/CLionProjects/1c/main.cpp
+iostream
+-
+suffix_automaton.h
+/Users/aleksandragafonov/CLionProjects/1c/suffix_automaton.h
+
+/Users/aleksandragafonov/CLionProjects/1c/suffix_automaton.cpp
+suffix_automaton.h
+/Users/aleksandragafonov/CLionProjects/1c/suffix_automaton.h
+
+/Users/aleksandragafonov/CLionProjects/1c/suffix_automaton.h
+vector
+-
+map
+-
+fstream
+-
+
